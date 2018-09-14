@@ -14,8 +14,9 @@ namespace PS2_prodzekt
     public class ChatHub : Hub
     {
 
-        private static List<object[]> getQuery(string message)
-        {
+        private static List<object[]> getQuery(string message)        {
+
+
             List<object[]> rows = new List<object[]>();
 
             using (SqlConnection conn = new SqlConnection())
