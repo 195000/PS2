@@ -21,7 +21,7 @@ namespace PS2_prodzekt
 
             using (SqlConnection conn = new SqlConnection())
             {
-                conn.ConnectionString = "SERVER=ps2serwer.database.windows.net;DATABASE=PS2FinalProject;USER ID=ps2admin;PASSWORD=Maslo2017;";
+                conn.ConnectionString = "SERVER=ps2dbserwer.database.windows.net;DATABASE=sqldb;USER ID=admin123;PASSWORD=Nowehaslo321;";
                 
                 conn.Open();
 
@@ -89,7 +89,7 @@ namespace PS2_prodzekt
 
             using (SqlConnection conn = new SqlConnection())
             {
-                conn.ConnectionString = "SERVER=ps2serwer.database.windows.net;DATABASE=PS2FinalProject;USER ID=ps2admin;PASSWORD=Maslo2017;";
+                conn.ConnectionString = "SERVER=ps2dbserwer.database.windows.net;DATABASE=sqldb;USER ID=admin123;PASSWORD=Nowehaslo321;";
 
                 conn.Open();
 
@@ -121,7 +121,7 @@ namespace PS2_prodzekt
 
             using (SqlConnection conn = new SqlConnection())
             {
-                conn.ConnectionString = "SERVER=ps2serwer.database.windows.net;DATABASE=PS2FinalProject;USER ID=ps2admin;PASSWORD=Maslo2017;";
+                conn.ConnectionString = "SERVER=ps2dbserwer.database.windows.net;DATABASE=sqldb;USER ID=admin123;PASSWORD=Nowehaslo321;";
 
                 conn.Open();
 
@@ -181,7 +181,7 @@ namespace PS2_prodzekt
 
             using (SqlConnection conn = new SqlConnection())
             {
-                conn.ConnectionString = "SERVER=ps2serwer.database.windows.net;DATABASE=PS2FinalProject;USER ID=ps2admin;PASSWORD=Maslo2017;";
+                conn.ConnectionString = "SERVER=ps2dbserwer.database.windows.net;DATABASE=sqldb;USER ID=admin123;PASSWORD=Nowehaslo321;";
 
                 conn.Open();
 
@@ -241,7 +241,7 @@ namespace PS2_prodzekt
 
             using (SqlConnection conn = new SqlConnection())
             {
-                conn.ConnectionString = "SERVER=ps2serwer.database.windows.net;DATABASE=PS2FinalProject;USER ID=ps2admin;PASSWORD=Maslo2017;";
+                conn.ConnectionString = "SERVER=ps2dbserwer.database.windows.net;DATABASE=sqldb;USER ID=admin123;PASSWORD=Nowehaslo321;";
 
                 conn.Open();
 
